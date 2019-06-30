@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Customers } from './Customers'
 import { Header } from './Header'
-import { ExportCSV } from './ExportCSV'
+import { ExportReactCSV } from './ExportReactCSV'
 
 class App extends React.Component {
 
@@ -31,7 +31,7 @@ class App extends React.Component {
                 <h2>Customers</h2>
             </div>
             <div className="col-md-4 center">
-                <ExportCSV csvData={this.state.customers} fileName={this.state.fileName} />
+                <ExportReactCSV csvData={this.state.customers} fileName={this.state.fileName} />
             </div>
         </div>
         <Customers customers={this.customers()}/>
