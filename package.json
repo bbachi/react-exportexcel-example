@@ -10,7 +10,7 @@
     "react-csv": "^1.1.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "xlsx": "^0.14.3"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
